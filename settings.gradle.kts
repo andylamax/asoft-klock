@@ -2,6 +2,7 @@ pluginManagement {
     repositories {
         google()
         jcenter()
+        maven(url = "https://dl.bintray.com/kotlin/kotlin-eap")
     }
     resolutionStrategy {
         eachPlugin {
@@ -15,4 +16,4 @@ pluginManagement {
     }
 }
 
-rootProject.name = "asoft-klock"
+rootProject.name = "asoft-test"
